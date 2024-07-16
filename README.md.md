@@ -283,3 +283,8 @@ Configura una rama principal y haz el primer push: Usa git checkout -b main y gi
 Siguiendo estos pasos deberías poder resolver el problema y configurar tu repositorio correctamente. Si sigues teniendo problemas, por favor proporciona más detalles sobre los pasos que has seguido y los mensajes de error que estás recibiendo.
 
 
+Consulta las claves cargadas: ssh-add -l.
+Verifica los archivos de claves: ls -l ~/.ssh.
+Carga las claves en el agente: ssh-add ~/.ssh/id_rsa.
+Verifica la autenticación con detalle: ssh -v usuario@host.
+Inicia el agente SSH y carga las claves: eval "$(ssh-agent -s)" y ssh-add ~/.ssh/id_rsa.
