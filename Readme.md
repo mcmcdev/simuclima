@@ -10,7 +10,7 @@ npm init -y
 
 npm install express
 
-
+Crear el archivo index.
 
 Instalar dependencias iniciales: Dependiendo de tus necesidades específicas, puedes instalar paquetes adicionales. Por ejemplo, si estás desarrollando una API RESTful, podrías considerar instalar Express (npm install express).
 

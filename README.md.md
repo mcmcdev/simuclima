@@ -288,3 +288,8 @@ Verifica los archivos de claves: ls -l ~/.ssh.
 Carga las claves en el agente: ssh-add ~/.ssh/id_rsa.
 Verifica la autenticación con detalle: ssh -v usuario@host.
 Inicia el agente SSH y carga las claves: eval "$(ssh-agent -s)" y ssh-add ~/.ssh/id_rsa.
+
+
+
+
+
