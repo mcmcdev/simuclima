@@ -1,0 +1,45 @@
+# DEvTools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Ignorar archivos generados por el sistema
+*.log
+*.bak
+*.swp
+
+# Ignorar directorios generados
+node_modules/
+.vscode/
+
+# Ignorar archivos de configuración local
+.env
+.venv/
+.env.test
+.env.production
+
+# Ignorar recursos internos y algunos secretitos
+.key
+hot/
+
+# Ignorar cositas de pub, etc......
+.dart_tool/
+.packages
+build/
+doc/api/
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
