@@ -5,6 +5,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
 # Ignorar archivos generados por el sistema
 *.log
 *.bak
