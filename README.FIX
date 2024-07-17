@@ -1,0 +1,64 @@
+Vamos a hacer un multiswitch script
+
+elegir entre GitPersonal o GitCorpo
+
+git config --global --list
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+ssh -vT git@github.com
+
+
+
+3 archivos .gitconfig en el home del user, .gitconfig | .gitconfig_CORPO | .gitconfig_PERSONAL
+dentro de la carpeta .shh las llaves que corresponden a cada perfil de github: id_rsa
+
+
+git config --global --list
+
+git config --global user.name
+git config --global user.email
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu-correo@example.com"
+
+ls -al ~/.ssh
+
+Este comando lista todos los archivos en el directorio .ssh en tu directorio de usuario. Deberías ver archivos como id_rsa (llave privada) y id_rsa.pub (llave pública) si ya tienes una configuración de SSH.
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+-------------
+git config --global --unset-all urlDataQUEnoVA
+
+-----------------
+fix all reset account
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
+git config --global --unset-all url.*
+
+
+git config --global --list
+
+git config --global user.name "Pepe"
+git config --global user.email "Pepe@domain.com"
+
+
+ssh-add ~/.ssh/id_rsa
+
+agrega esta pub key a github
+cat ~/.ssh/id_rsa.pub
+
+ssh -T USER@DOMAIN.com
+
+ls -al ~/.ssh
+
+ssh-add -l
+
+ssh -vT git@github.com
+
+
+ssh -vT git@github.com

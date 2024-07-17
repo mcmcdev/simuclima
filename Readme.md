@@ -12,6 +12,36 @@ npm install express
 
 Crear el archivo index.
 
+Probar tu Aplicación:
+
+Abre tu navegador web y visita http://localhost:3000/. Deberías ver el mensaje "¡Hola, mundo!".
+
+Paso 3: Implementación de Funcionalidades
+A partir de aquí, puedes comenzar a desarrollar las funcionalidades específicas de tu aplicación:
+
+Define y maneja más rutas usando app.get, app.post, app.put, etc.
+Conéctate a una base de datos (como MongoDB, MySQL, PostgreSQL) usando librerías como Mongoose (para MongoDB) o Sequelize (para SQL).
+Implementa la lógica de negocio y cualquier otra funcionalidad necesaria para tu aplicación.
+
+Paso 4: Pruebas Unitarias con Jest (Opcional)
+Si deseas agregar pruebas unitarias utilizando Jest (como mencionamos anteriormente), aquí tienes un ejemplo básico de cómo podrías hacerlo:
+
+Instalar Jest (si no lo has hecho):
+
+npm install --save-dev jest
+
+
+Ejecutar Pruebas:
+
+Ejecuta tus pruebas con el siguiente comando en tu terminal:
+bash
+Copiar código
+npm test
+Jest ejecutará las pruebas y te mostrará los resultados en la terminal.
+
+
+
+
 Instalar dependencias iniciales: Dependiendo de tus necesidades específicas, puedes instalar paquetes adicionales. Por ejemplo, si estás desarrollando una API RESTful, podrías considerar instalar Express (npm install express).
 
 Paso 3: Escribir Código JavaScript
